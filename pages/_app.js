@@ -1,6 +1,6 @@
-import '@styles/globals.css'
+import "@styles/globals.css"
 
-function Application({ Component, pageProps }) {
+const Application = ({ Component, pageProps }) => {
   return <Component {...pageProps} />
 }
 
