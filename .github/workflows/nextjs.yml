@@ -53,6 +53,10 @@ jobs:
         with:
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
+      - name: Run tsc
+        run: tsc --noEmit
+      - name: Run ESLint
+        run: eslint . --ext .js,.jsx,.ts,.tsx
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
