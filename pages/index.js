@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useState } from "react";
 
-export default function Home() {
+const Home = () => {
   const [hovered, setHovered] = useState(false);
 
   const defaultImage =
@@ -29,3 +29,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;
