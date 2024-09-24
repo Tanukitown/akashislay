@@ -17,10 +17,12 @@
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^14.2.13",
+    "@tailwindcss/typography": "^0.5.15",
     "@types/node": "22.6.0",
     "@types/react": "18.3.8",
     "@typescript-eslint/eslint-plugin": "^8.7.0",
     "autoprefixer": "^10.4.20",
+    "daisyui": "^4.12.10",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^9.1.0",
     "eslint-formatter-table": "^7.32.1",
