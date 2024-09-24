@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { useState } from "react";
 
-const defaultImage = "/gottem.png"; // Default image
-const hoveredImage = "leoGrin.png"; // Hovered image
+const defaultImage = "/images/gottem.png"; // Default image
+const hoveredImage = "/images/leoGrin.png"; // Hovered image
 
 const Gottem = () => {
   const [hovered, setHovered] = useState(false);

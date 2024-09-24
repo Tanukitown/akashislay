@@ -7,7 +7,7 @@ const BackgroundVideo = () => {
       width="100%"
       className="hero object-cover max-h-[20rem] mt-[-16px]"
     >
-      <source src="/clip.mp4" type="video/mp4" />
+      <source src="/videos/clip.mp4" type="video/mp4" />
       Your browser does not support this video.
     </video>
   );

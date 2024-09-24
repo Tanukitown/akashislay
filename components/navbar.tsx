@@ -1,9 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useLayoutEffect } from "react";
 
 const Navbar = () => {
+  useLayoutEffect(() => {
+    const dropdownContent = document.querySelectorAll(".dropdown-content>li");
+    dropdownContent.forEach((element) => {
+      element.addEventListener("click", () => {
+        if (document.activeElement instanceof HTMLElement)
+          document.activeElement.blur();
+      });
+    });
+  });
+
   return (
-    <div className="navbar w-full bg-neutral">
+    <nav className="navbar w-full bg-neutral">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -32,7 +43,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link href="/" className="btn btn-ghost text-xl">
-          <Image src="/genbu.png" alt="Logo" height={45} width={45} />
+          <Image src="/images/genbu.png" alt="Logo" height={45} width={45} />
           Genbu Slayers!
         </Link>
       </div>
@@ -48,7 +59,7 @@ const Navbar = () => {
           Apply
         </Link>
       </div>
-    </div>
+    </nav>
   );
 };
 

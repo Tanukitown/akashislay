@@ -5,8 +5,8 @@ const VideoChat = () => {
     <div className="mt-3">
       <div className="chat chat-start">
         <div className="chat-image avatar">
-          <div className="w-10 rounded-full">
-            <Image alt="Vipo" src="/vipoUh.png" height={40} width={40} />
+          <div className="w-10 rounded-full bg-primary">
+            <Image alt="Vipo" src="/images/vipoUh.png" height={40} width={40} />
           </div>
         </div>
         <div className="chat-header">Vipo</div>
@@ -16,8 +16,13 @@ const VideoChat = () => {
       </div>
       <div className="chat chat-end">
         <div className="chat-image avatar">
-          <div className="w-10 rounded-full">
-            <Image alt="Ari" src="/ariTired.png" height={40} width={40} />
+          <div className="w-10 rounded-full bg-error">
+            <Image
+              alt="Ari"
+              src="/images/ariTired.png"
+              height={40}
+              width={40}
+            />
           </div>
         </div>
         <div className="chat-header">Ari</div>
@@ -27,8 +32,8 @@ const VideoChat = () => {
       </div>
       <div className="chat chat-start">
         <div className="chat-image avatar">
-          <div className="w-10 rounded-full">
-            <Image alt="Vipo" src="/vipoUh.png" height={40} width={40} />
+          <div className="w-10 rounded-full bg-primary">
+            <Image alt="Vipo" src="/images/vipoUh.png" height={40} width={40} />
           </div>
         </div>
         <div className="chat-header">Vipo</div>
@@ -36,8 +41,8 @@ const VideoChat = () => {
       </div>
       <div className="chat chat-start">
         <div className="chat-image avatar">
-          <div className="w-10 rounded-full">
-            <Image alt="Vipo" src="/vipoUh.png" height={40} width={40} />
+          <div className="w-10 rounded-full bg-primary">
+            <Image alt="Vipo" src="/images/vipoUh.png" height={40} width={40} />
           </div>
         </div>
         <div className="chat-header">Vipo</div>
@@ -45,8 +50,13 @@ const VideoChat = () => {
       </div>
       <div className="chat chat-end">
         <div className="chat-image avatar">
-          <div className="w-10 rounded-full">
-            <Image alt="Rae" src="/raeTired.png" height={40} width={40} />
+          <div className="w-10 rounded-full bg-neutral">
+            <Image
+              alt="Rae"
+              src="/images/raeTired.png"
+              height={40}
+              width={40}
+            />
           </div>
         </div>
         <div className="chat-header">Rae</div>
@@ -54,8 +64,8 @@ const VideoChat = () => {
       </div>
       <div className="chat chat-start">
         <div className="chat-image avatar">
-          <div className="w-10 rounded-full">
-            <Image alt="Vipo" src="/vipoUh.png" height={40} width={40} />
+          <div className="w-10 rounded-full bg-primary">
+            <Image alt="Vipo" src="/images/vipoUh.png" height={40} width={40} />
           </div>
         </div>
         <div className="chat-header">Vipo</div>
@@ -63,8 +73,8 @@ const VideoChat = () => {
       </div>
       <div className="chat chat-start">
         <div className="chat-image avatar">
-          <div className="w-10 rounded-full">
-            <Image alt="Vipo" src="/vipoUh.png" height={40} width={40} />
+          <div className="w-10 rounded-full bg-primary">
+            <Image alt="Vipo" src="/images/vipoUh.png" height={40} width={40} />
           </div>
         </div>
         <div className="chat-header">Vipo</div>
@@ -72,14 +82,19 @@ const VideoChat = () => {
       </div>
       <div className="chat chat-end">
         <div className="chat-image avatar">
-          <div className="w-10 rounded-full">
-            <Image alt="Akashi" src="/akashiLMAO.png" height={40} width={40} />
+          <div className="w-10 rounded-full bg-warning">
+            <Image
+              alt="Akashi"
+              src="/images/akashiLMAO.png"
+              height={40}
+              width={40}
+            />
           </div>
         </div>
         <div className="chat-header">Akashi</div>
         <div className="chat-bubble chat-bubble-warning">
           <Image
-            src="/akashiSlay.png"
+            src="/images/akashiSlay.png"
             alt="akashiSlay"
             height={200}
             width={200}
