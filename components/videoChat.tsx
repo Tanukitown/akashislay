@@ -6,12 +6,7 @@ const VideoChat = () => {
       <div className="chat chat-start">
         <div className="chat-image avatar">
           <div className="w-10 rounded-full">
-            <Image
-              alt="Tailwind CSS chat bubble component"
-              src="/vipoUh.png"
-              height={40}
-              width={40}
-            />
+            <Image alt="Vipo" src="/vipoUh.png" height={40} width={40} />
           </div>
         </div>
         <div className="chat-header">Vipo</div>
@@ -22,12 +17,7 @@ const VideoChat = () => {
       <div className="chat chat-end">
         <div className="chat-image avatar">
           <div className="w-10 rounded-full">
-            <Image
-              alt="Tailwind CSS chat bubble component"
-              src="/ariTired.png"
-              height={40}
-              width={40}
-            />
+            <Image alt="Ari" src="/ariTired.png" height={40} width={40} />
           </div>
         </div>
         <div className="chat-header">Ari</div>
@@ -38,12 +28,7 @@ const VideoChat = () => {
       <div className="chat chat-start">
         <div className="chat-image avatar">
           <div className="w-10 rounded-full">
-            <Image
-              alt="Tailwind CSS chat bubble component"
-              src="/vipoUh.png"
-              height={40}
-              width={40}
-            />
+            <Image alt="Vipo" src="/vipoUh.png" height={40} width={40} />
           </div>
         </div>
         <div className="chat-header">Vipo</div>
@@ -52,12 +37,7 @@ const VideoChat = () => {
       <div className="chat chat-start">
         <div className="chat-image avatar">
           <div className="w-10 rounded-full">
-            <Image
-              alt="Tailwind CSS chat bubble component"
-              src="/vipoUh.png"
-              height={40}
-              width={40}
-            />
+            <Image alt="Vipo" src="/vipoUh.png" height={40} width={40} />
           </div>
         </div>
         <div className="chat-header">Vipo</div>
@@ -66,26 +46,16 @@ const VideoChat = () => {
       <div className="chat chat-end">
         <div className="chat-image avatar">
           <div className="w-10 rounded-full">
-            <Image
-              alt="Tailwind CSS chat bubble component"
-              src="/ariTired.png"
-              height={40}
-              width={40}
-            />
+            <Image alt="Rae" src="/raeTired.png" height={40} width={40} />
           </div>
         </div>
-        <div className="chat-header">Ari</div>
-        <div className="chat-bubble chat-bubble-error">Errhhhhh OH NO!</div>
+        <div className="chat-header">Rae</div>
+        <div className="chat-bubble">Errhhhhh OH NO!</div>
       </div>
       <div className="chat chat-start">
         <div className="chat-image avatar">
           <div className="w-10 rounded-full">
-            <Image
-              alt="Tailwind CSS chat bubble component"
-              src="/vipoUh.png"
-              height={40}
-              width={40}
-            />
+            <Image alt="Vipo" src="/vipoUh.png" height={40} width={40} />
           </div>
         </div>
         <div className="chat-header">Vipo</div>
@@ -94,12 +64,7 @@ const VideoChat = () => {
       <div className="chat chat-start">
         <div className="chat-image avatar">
           <div className="w-10 rounded-full">
-            <Image
-              alt="Tailwind CSS chat bubble component"
-              src="/vipoUh.png"
-              height={40}
-              width={40}
-            />
+            <Image alt="Vipo" src="/vipoUh.png" height={40} width={40} />
           </div>
         </div>
         <div className="chat-header">Vipo</div>
@@ -108,12 +73,7 @@ const VideoChat = () => {
       <div className="chat chat-end">
         <div className="chat-image avatar">
           <div className="w-10 rounded-full">
-            <Image
-              alt="Tailwind CSS chat bubble component"
-              src="/akashiLMAO.png"
-              height={40}
-              width={40}
-            />
+            <Image alt="Akashi" src="/akashiLMAO.png" height={40} width={40} />
           </div>
         </div>
         <div className="chat-header">Akashi</div>
