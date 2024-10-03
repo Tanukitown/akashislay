@@ -14,7 +14,7 @@ const Navbar = () => {
   });
 
   return (
-    <nav className="navbar w-full bg-neutral">
+    <nav className="navbar w-full bg-neutral sticky top-0 z-10">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -40,6 +40,9 @@ const Navbar = () => {
             <li>
               <Link href="/about">About Us</Link>
             </li>
+            <li>
+              <Link href="/war-room">War Room</Link>
+            </li>
           </ul>
         </div>
         <Link href="/" className="btn btn-ghost text-xl">
@@ -51,6 +54,9 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">
           <li>
             <Link href="/about">About Us</Link>
+          </li>
+          <li>
+            <Link href="/war-room">War Room</Link>
           </li>
         </ul>
       </div>
