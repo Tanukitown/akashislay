@@ -36,13 +36,8 @@ const Application = ({ Component, pageProps }) => {
                 We here at Genbu take the daily Wordle challenge VERY
                 seriously—it&apos;s a ritual we cherish. By using this site,
                 you&apos;re making a pledge to NEVER spoil the daily Wordle for
-                others.
-              </p>
-              <p>
-                We will occassionaly ask you to re-pledge, just to make sure you
-                are as serious about the daily Wordle as we are. Let&apos;s keep
-                the excitement alive and respect everyone&apos;s journey to
-                uncover the word of the day!
+                others. Let&apos;s keep the excitement alive and respect
+                everyone&apos;s journey to uncover the word of the day!
               </p>
               <div className="modal-action justify-stretch w-full">
                 <form method="dialog" className="w-full">
