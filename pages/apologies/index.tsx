@@ -20,15 +20,16 @@ const Apolgies = () => {
             imagine how disappointing that must have been for you.
           </p>
           <p>
-            To make it up to you, I’d love to set up a time for us to tackle
-            some dungeons together. How about we plan a dedicated gaming session
-            this weekend? I’ll bring my best gear, and we can tackle whatever
-            you want—be it leveling or just having fun with some old content.
+            To make it up to you, I&apos;d love to set up a time for us to
+            tackle some dungeons together. How about we plan a dedicated gaming
+            session this weekend? I&apos;ll bring my best gear, and we can
+            tackle whatever you want—be it leveling or just having fun with some
+            old content.
           </p>
           <p>
-            Additionally, I’ll make sure to keep you in the loop for future runs
-            so we can team up more often. Let me know what works for you, and
-            I’m looking forward to catching up in-game!
+            Additionally, I&apos;ll make sure to keep you in the loop for future
+            runs so we can team up more often. Let me know what works for you,
+            and I&apos;m looking forward to catching up in-game!
           </p>
           <p>Thanks for your understanding!</p>
           <div className="card-actions justify-end">
