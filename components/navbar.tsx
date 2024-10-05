@@ -43,6 +43,9 @@ const Navbar = () => {
             <li>
               <Link href="/war-room">War Room</Link>
             </li>
+            <li>
+              <Link href="/apologies">Apologies</Link>
+            </li>
           </ul>
         </div>
         <Link href="/" className="btn btn-ghost text-xl">
@@ -57,6 +60,9 @@ const Navbar = () => {
           </li>
           <li>
             <Link href="/war-room">War Room</Link>
+          </li>
+          <li>
+            <Link href="/apologies">Apologies</Link>
           </li>
         </ul>
       </div>
