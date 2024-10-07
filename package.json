@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next build && next export",
-    "lint": "tsc --noEmit && eslint --format table --color .",
+    "lint": "tsc --noEmit && eslint --format table --color ./pages ./components",
     "lint-fix": "eslint . --fix"
   },
   "husky": {
