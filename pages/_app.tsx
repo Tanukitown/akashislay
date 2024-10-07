@@ -3,21 +3,22 @@ import BackgroundVideo from "@components/backgroundVideo";
 import Navbar from "@components/navbar";
 import classNames from "classnames";
 import Head from "next/head";
-import { useLayoutEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const WORDLE_STORAGE_KEY = "user_has_pledged_to_NEVER_spoil_the_daily_wordle";
 
 const Application = ({ Component, pageProps }) => {
   const [wordlePledge, setWordlePledge] = useState<string>("false");
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     setWordlePledge(sessionStorage.getItem(WORDLE_STORAGE_KEY) || "false");
   });
 
   return (
     <>
       <Head>
-        <title>Akashislay</title>
+        {" "}
+        <title>Akashislay</title>{" "}
       </Head>
       {wordlePledge === "false" ? (
         <>
