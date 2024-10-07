@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useLayoutEffect } from "react";
+import { useEffect } from "react";
 
 const Navbar = () => {
-  useLayoutEffect(() => {
+  useEffect(() => {
     const dropdownContent = document.querySelectorAll(".dropdown-content>li");
     dropdownContent.forEach((element) => {
       element.addEventListener("click", () => {
