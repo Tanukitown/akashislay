@@ -7,7 +7,6 @@ import { useLayoutEffect, useState } from "react";
 
 const WORDLE_STORAGE_KEY = "user_has_pledged_to_NEVER_spoil_the_daily_wordle";
 
-// eslint-disable-next-line react/prop-types
 const Application = ({ Component, pageProps }) => {
   const [wordlePledge, setWordlePledge] = useState<string>("false");
 

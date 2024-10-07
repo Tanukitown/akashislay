@@ -7,7 +7,7 @@ import importPlugin from "eslint-plugin-import";
 
 export default tseslint.config({
   files: ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"],
-  ignores: ["**/out/**", "**/node_modules/**"],
+  ignores: ["**/out/**", "**/node_modules/**", "**/.next/**"],
   extends: [
     eslint.configs.recommended,
     importPlugin.flatConfigs.recommended,
